@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mr. Harish Chand Portfolio</title>
+</head>
+<body>
+    <div class="main-container">
+        <div class="main">
+            <div class="main-area">
+                <div class="up-area">
+                <div class="logo-name"> <h3 class="my-name">Portfolio</h3></div>
+                <input type="checkbox" id="menu-check-box">
+                <label for="menu-check-box"> <p><i class="fa-solid fa-bars"></i>Menu</p></label>
+               <ul class="menu-bar">
+                   <li> <a href="index.html">Home</a></li>
+                   <li> <a href="about.html">About</a></li>
+                   <li> <a href="resume.html">Resume</a></li>
+                   <li> <a href="portfolio.html">Portfolio</a></li>
+                   <li> <a href="contact.html">Contact</a></li>
+               </ul>
+            </div>
+            <div class="down-area">
+                <div class="box1-social-icon">
+                    <div class="icon">
+                       <a href="https://www.linkedin.com/in/harish-chand-3465b8198"><i class="fa-brands fa-linkedin"></i></a> <br>
+                       <a href="https://github.com/harishgithub1437"><i class="fa-brands fa-github"></i></a> <br>
+                       <a href=""><i class="fa-regular fa-envelope"></i></a>
+                    </div>
+
+
+
+                </div>
+                <div class="box2-about">
+                    <div class="text-discription">
+                        <h1 class="name">Hi, I'm Harish</h1>
+                        <h5 class="skill">Frontend Developer</h5>
+                        <p class="knowledge">High level experience in web design and  <br> development knowledge, producing <br> quality work</p>
+                        <a href="contact.html"><button class="contact-btn"> <p class=" pc">Contact me </p> <i class="fa-solid pc fa-arrow-right-to-bracket"></i></button> </a>
+                    </div>
+                </div>
+                <div class="box3-img">
+                    <div class="img-carry"> 
+                        <img  class="profile-img" src="profile.png" alt=" Img Not Found">
+                    </div>
+                    
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<style>
+    .pc{
+        transition: .2s;
+        color: white;
+    }
+    .contact-btn:hover{
+        background-color: gray;
+    }
+    .contact-btn:hover .pc{
+        font-size: 15px;
+        color: cyan;
+    }
+    .fa-envelope{color: red;
+        transition: .2s;
+    }
+    .fa-envelope:hover{
+        scale: 1.2;
+        background-color: white;
+    }
+
+    .fa-linkedin{
+        color: skyblue;
+        transition: .2s;
+    }
+    .fa-linkedin:hover{
+        scale: 1.2;
+        background-color: white;
+        
+    }
+    .fa-github{
+        color: rgb(54, 52, 52);
+        transition: .2s;
+    }
+    .fa-github:hover{
+        scale: 1.2;
+        background-color: white;
+        border-radius: 50%;
+    }
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+  .main-container{ 
+        height: 680px;
+        width: 100%;
+        background-color: rgba(113, 183, 245, 0.547);
+        background-color: gray;
+        display: flex;
+        justify-content: center;
+        place-items: center;
+      
+      
+        
+        
+       
+    }
+    .main{
+        height: calc(100% - 60px);
+        width: 88%;
+       
+        border-radius: 10px;
+        display: flex;
+        margin-top: 40px;
+        box-shadow: 0px 0px 30px rgb(128, 126, 126);
+        background-color: rgb(24, 23, 23);
+        background-image: url(background.png);
+        margin-bottom: 40px;
+    
+        
+       
+    }
+    .main-area{
+        height: 100%;
+        width: 1000px;
+      
+        margin: auto;
+    }
+    .up-area{
+        height: 60px;
+        width: 100%;
+        
+    }
+    .logo-name{
+        height: 60px;
+        width: 300px;
+      
+       
+        position: absolute;
+        
+        
+    }
+    .my-name{
+        line-height: 60px;
+        font-size: 36px;
+        color: rgb(24, 17, 17);
+
+    }
+    .menu-bar{
+        float: right;
+        color: black;
+        font-size: 18px;
+        justify-content: center;
+        line-height: 60px;
+        height: 40px;
+        
+        
+       
+        
+    }
+    .menu-bar li{
+        float: left;
+        margin-right: 30px;
+        list-style: none;
+        text-decoration: none;
+        transition: .2s;
+        color: black;
+        padding: 10px;
+        
+
+        
+    }
+    .menu-bar li:hover{
+        border-bottom: solid black 2px;
+        transform: translateY(-5px);
+        color: red;
+        
+
+    }
+    .down-area{
+        height: 500px;
+        width: 100%;
+       
+        display: flex;
+    }
+    .box1-social-icon{
+        height: 100%;
+        width: 10%;
+      
+        align-items: center;
+        
+        line-height: 10px;
+        font-size: 25px;
+        display: grid;
+    }
+    .box1-social-icon i{
+       margin-top: 20px;
+    }
+    .icon{
+        height: 150px;
+        width: 100%;
+        margin: auto;
+      
+    }
+    .box2-about{
+        height: 100%;
+        width: 40%;
+       
+    }
+    .text-discription{
+        height: 400px;
+       
+        margin-top: 120px;
+    }
+    .name{
+       
+        font-size: 40px;
+    }
+    .skill{
+        color: black;
+        margin-top: 10px;
+        font-size: 17px;
+    }
+    .knowledge{
+        margin-top: 20px;
+        color: rgb(23, 18, 18);
+    }
+    .contact-btn{
+        height: 50px;
+        width: 150px;
+        margin-top: 40px;
+       background-color: rebeccapurple;
+        display: flex;
+       justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        gap: 10px;
+        color: rgb(227, 202, 202);
+
+    }
+    .box3-img{
+        
+        height: 100%;
+        width: 50%;
+        
+        
+       
+    }
+    .img-carry{
+        height:75%;
+        width: 75%;
+        margin-top: 60px;
+        background-color:  rebeccapurple;
+      border-radius: 50%;
+
+
+       
+        
+        overflow: hidden;
+        border: 10px ;
+       
+       
+
+    }
+    .profile-img{
+        
+        height: 100%;
+        width: 100%;
+       
+        
+    }
+    a{
+    text-decoration: none;
+    color: black;
+    transition: 1s;
+}
+a:hover{
+    color: red;
+    
+
+} 
+label{
+    float: right;
+    margin-top: 20px;
+    font-size: 25px;
+    position: relative;
+    display: none;
+}
+input{
+    display: none;
+}
+@media screen and (max-width:768px){
+    .menu-bar{
+        display: none;
+    }
+
+    .menu-bar li{
+        float: none;
+       
+        margin-left: 15px;
+        list-style-type: square;
+        padding: 0px;
+        height: 0px;
+        align-items: center;
+        position: relative;
+    
+        margin-top: 20px;
+
+        
+        
+        
+       
+    }
+    .menu-bar li:hover{
+        transform: translateY(0px);
+        border-bottom: 0px;
+        
+        
+        
+
+    }
+    .menu-bar li a:hover{
+        color: blueviolet;
+        transition: .1s;
+        transform: translateX(10px);
+        
+    }
+
+
+    :checked ~ ul{
+        display: initial;
+        margin-top: 70px;
+        
+        position: absolute;
+        height: 130px;
+        width: 87%;
+        
+        
+       
+        
+    }
+    .down-area{
+        transform: translateY(200px);
+    }
+    label{
+        display: initial;
+    }
+    .img-carry{
+        height: 200px;
+        width: 200px;
+        transform: translateY(160px);
+    }
+
+}
+
+</style>

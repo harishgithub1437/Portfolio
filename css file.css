@@ -1,0 +1,107 @@
+.main-container{
+    
+    width: 100%;
+    
+    height: auto;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+  
+  
+    
+    
+   
+}
+.main{
+    height: calc(100% - 50px);
+    width: 88%;
+    margin-top: 30px;
+    border-radius: 10px;
+    display: flex;
+   background-image: url(img/background.png);
+    box-shadow: 0px 0px 30px rgb(128, 126, 126);
+    background-color: whitesmoke;
+
+    
+   
+}
+.main-area{
+    height: 100%;
+    width: 1000px;
+  
+    margin: auto;
+}
+.up-area{
+    height: 60px;
+    width: 100%;
+    
+}
+.logo-name{
+    height: 60px;
+    width: 300px;
+  
+   
+    position: absolute;
+    
+    
+}
+.my-name{
+    line-height: 60px;
+    font-size: 36px;
+    color: gray;
+
+}
+.menu-bar{
+    float: right;
+    color: black;
+    font-size: 18px;
+    justify-content: center;
+    line-height: 60px;
+    height: 40px;
+    
+    
+   
+    
+}
+.menu-bar li{
+    float: left;
+    margin-right: 30px;
+    list-style: none;
+    text-decoration: none;
+    transition: .5s;
+    color: black;
+    
+    
+  
+
+    
+}
+.menu-bar li:hover{
+    border-bottom: solid black 2px;
+    transform: translateY(-5px);
+    color: red;
+    
+
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.resume{
+    margin: auto;
+}
+a{
+    text-decoration: none;
+    color: black;
+    transition: 1s;
+}
+a:hover{
+    color: red;
+    
+}
+@media screen and (max-width:768px){
+    .menu-bar{
+        display: none;
+    }
+
+}
